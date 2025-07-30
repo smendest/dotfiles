@@ -1,0 +1,45 @@
+# Editar el color de fondo del editor (Solo la parte del código)
+
+Editar el archivo `settings.json` de User Settings.
+
+Cómo llegar a ese archivo? hay dos formas:
+
+1. Abrir Settings (CTRL+,)
+	- Buscar 'workbench.colorCustomizations'.
+	- Presionar 'Edit in json'.
+2. Paleta de comandos (CTRL+SHIFT+p)
+	- Buscar 'User setting json'
+	- Abrir 'Open user settings (JSON)'
+
+
+Agregar al final (dentro de la llave principal) las siguientes claves:
+
+```js
+"workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "editor.background": "#111111",
+        }
+    }
+```
+
+Elegir el color deseado.
+
+Otras posibles opciones de cambio, como ejemplo:
+
+
+```js
+"workbench.colorCustomizations": {
+    "list.inactiveSelectionBackground": "#C5DEF0",
+    "sideBar.background": "#F8F6F6",
+    "sideBar.foreground": "#000000",
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "sideBarSectionHeader.background": "#CAC9C9",
+    "sideBarSectionHeader.foreground": "#000000",
+    "activityBar.border": "#FFFFFF",
+    "statusBar.background": "#102F97",
+    "scrollbarSlider.activeBackground": "#77D4CB",
+    "scrollbarSlider.hoverBackground": "#8CE6DA",
+    "badge.background": "#81CA91"
+}
+```

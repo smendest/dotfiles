@@ -1,0 +1,51 @@
+{
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDragAndDrop": false,
+    "html.format.contentUnformatted": "",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "*html": "html"
+    },
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.fetchOnPull": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "react-native-tools.showUserTips": false,
+    "docker.containers.label": "ContainerName",
+    "docker.containers.description": [
+        "Image",
+        "Status"
+    ],
+    "markdown.preview.breaks": true,
+    "markdown.styles": [
+        "./CustomMarkdownStyles.css"
+    ],
+    "editor.tabSize": 2,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.confirmSync": false,
+    "window.zoomLevel": 1,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command",
+        "stash-push:command"
+    ],
+    "editor.linkedEditing": true,
+    "editor.selectionClipboard": false,
+    "codeium.enableConfig": {
+        "*": false
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.formatOnSave": true,
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "editor.background": "#111111",
+        }
+    },
+    "redhat.telemetry.enabled": true
+}

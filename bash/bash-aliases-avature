@@ -1,0 +1,16 @@
+
+# set path to portals templates folder
+PATHTOREPOS="/home/sebastian/www/Portal-Templates-Group"
+STABLE="stable"
+AVASSO_USER="sebastian.mendestello"
+alias repos='cd $PATHTOREPOS'
+
+PRIVATE_TOKEN="glpat-xPoNCvJooJQGx4vNrrcw"
+
+if [[ -d $PATHTOREPOS/templatesTools/shellScripts/bash ]]; then
+
+    for f in $PATHTOREPOS/templatesTools/shellScripts/bash/*.sh;
+    do
+        . $f;
+    done
+fi

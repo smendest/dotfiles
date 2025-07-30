@@ -1,0 +1,11 @@
+body {
+  --list-marker-color: lightseagreen;
+  --list-numbered-style: lightseagreen;
+
+}
+
+/*
+Content item text color
+ .cm-list-1 {
+  color: red;
+} */
