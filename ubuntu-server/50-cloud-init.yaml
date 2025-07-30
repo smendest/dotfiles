@@ -12,5 +12,5 @@ network:
         optional: true
         access-points:
           Bulin-2.4GHz:
-            password: "heladera1465"
+            password: "..."
           
