@@ -3,9 +3,10 @@
 ```bash
 dconf dump /org/gnome/terminal/legacy/profiles:/
 ```
-Output:
+
+Output without hashes:
+
 ```bash
-[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
 background-color='rgb(0,0,0)'
 default-size-columns=100
