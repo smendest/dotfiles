@@ -12,6 +12,7 @@ alias diplo='cd /home/smt/mega/smendes-folder/estudios/Universidad/UTN-Diplomatu
 alias cat='bat'
 alias mounted='/run/media/smt/' # Shows the mounted devices on Fedora
 alias la='ls -la'
+alias clipboard='xclip -selection clipboard'
 
 # Note taking system
 alias sb='cd ~/mega/smendes-folder/second-brain'
@@ -20,4 +21,5 @@ alias dot='cd ~/mycode/dotfiles/ && nvim'
 
 # Self learning
 alias sql='cd /home/smt/mega/smendes-folder/computer-science/learning-computing/programming/data-bases/'
+alias web='cd ~/mycode/web-dev-learning/ && nvim'
 # alias vault='cd ~/mega/smendes-folder/second-brain/main-vault'
