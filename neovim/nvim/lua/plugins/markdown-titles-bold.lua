@@ -12,9 +12,6 @@ return {
           ["@markup.heading.4.markdown"] = { fg = colors.green, style = { "bold" } },
           ["@markup.heading.5.markdown"] = { fg = colors.sapphire, style = { "bold" } },
           ["@markup.heading.6.markdown"] = { fg = colors.lavender, style = { "bold" } },
-
-          -- Plain text with hex color (white)
-          ["@spell.markdown"] = { fg = "#ffffff" },
         }
       end,
     },
