@@ -37,9 +37,7 @@ EDITOR=/usr/bin/nvim
 
 # Enhancing history search
 export HISTIGNORE="ls:cd:exit:date:clear:history"
-# 'ignoreboth: Ignore commands that start with a space AND duplicates
-# 'erasedups': Erase all previous occurrences of a command when it's entered again
-export HISTCONTROL=erasedups:ignoreboth
+export HISTCONTROL=erasedups:ignorespace
 export HISTSIZE=50000
 export HISTFILESIZE=200000
 shopt -s histappend # Append to history file, don't overwrite
