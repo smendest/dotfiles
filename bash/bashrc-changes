@@ -3,3 +3,11 @@ bind 'set completion-ignore-case on'
 
 # aliases
 source ~/.bash_aliases
+
+# Enhancing history search
+export HISTIGNORE="ls:cd:exit:date:clear"
+export HISTCONTROL=ignoredups
+export HISTSIZE=50000
+export HISTFILESIZE=200000
+shopt -s histappend        # Append to history file, don't overwrite
+export PROMPT_COMMAND="history -a; history -c; history -r;$PROMPT_COMMAND"
