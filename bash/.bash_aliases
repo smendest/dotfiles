@@ -6,7 +6,7 @@ alias dbd='cd ~/mega/smendes-folder/estudios/Universidad/ATIC-UNLP/cursada/2do/d
 alias oc='cd /home/smt/mega/smendes-folder/estudios/Universidad/ATIC-UNLP/cursada/1ero/organizacion-de-computadoras-2025'
 alias arqui='cd /home/smt/mega/smendes-folder/estudios/Universidad/ATIC-UNLP/cursada/1ero/arquitectura-de-computadoras-2025'
 alias objetos='cd /home/smt/mega/smendes-folder/estudios/Universidad/ATIC-UNLP/cursada/2do/objetos-1'
-alias unl='cd /home/smt/mega/smendes-folder/estudios/Universidad/UNL-Linux-sys-admin/administracion-gnu-linux-1/'
+alias unl='cd /home/smt/mega/smendes-folder/estudios/Universidad/unl-admin-gnu-linux/admin-gnu-linux-2/'
 alias diplo='cd /home/smt/mega/smendes-folder/estudios/Universidad/UTN-Diplomatura-devops/'
 
 # Linux
