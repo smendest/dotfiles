@@ -52,4 +52,6 @@ require("lazy").setup({
   },
 })
 
+-- ADD THE FOLLOWING LINE
+
 require("gitsigns").setup({ current_line_blame = true })
