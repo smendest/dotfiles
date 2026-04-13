@@ -1,0 +1,14 @@
+[Unit]
+Description=Gunicorn instance to serve your Flask app
+After=network.target
+
+[Service]
+User=uadmin
+Group=www-data
+Environment="PATH=/home/uadmin/myapps/api-prono-unlp/.venv/bin"
+WorkingDirectory=/home/uadmin/myapps/api-prono-unlp/
+ExecStart=/home/uadmin/myapps/api-prono-unlp/.venv/bin/gunicorn -b localhost:8001 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
