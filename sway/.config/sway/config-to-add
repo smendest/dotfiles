@@ -1,0 +1,1 @@
+exec nwg-wrapper -t sway.pango -p right -mr 10
