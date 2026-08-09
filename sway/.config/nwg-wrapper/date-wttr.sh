@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 time=$(LC_ALL=C TZ='Europe/Warsaw' date +'%A, %d. %B')
 wttr=$(curl https://wttr.in/?format=1)

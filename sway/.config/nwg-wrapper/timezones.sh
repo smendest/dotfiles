@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 # Some countries below have more than one time zone,
 # and it makes sense to use cities instead of countries.
